@@ -14,7 +14,7 @@
 The project can be treated as a guide for a simple imagle classification tasks using a basic CNN architecture and by transfer learning using ResNet50 architecture. The model is able to classify the image as buildings, mountain, glacier, sea, street and forest. This is also part of [Kaggle Datasets](https://www.kaggle.com/puneet6060/intel-image-classification).
 
 ## Motivation
-It is difficult for one to fine-tune the results, however, fine-tuning can be done but if you are running late then transfer learning can help you catch up with that without compromising the results. Thus, it is important for one to know the options that one has while developing a project using transfer learning.
+The sub-image classification project serves the purpose to understand the CNN architecture that further helps to do the research on imaging diagnosis. There are several applications of CNN in imaging diagnosis, like examining the CT-Scan reports and further diagnose a disease in an efficient manner plus in lesser time. It could really boost our healthcare sector by folds. Also, it could help give an analysis reports to the doctor who further can take necessary actions and start the required treatment as soon as possible, potentially saving a life.
 
 ## Approach
 At first, the images are transformed in order to match the number of input features of the image with the required model that you have chosen.
@@ -33,7 +33,8 @@ After downloading the dataset from [here](https://www.kaggle.com/puneet6060/inte
 
 
 ## Bug / Feature Request
-If you'd like to request a new feature/approach, feel free to do so by opening an issue [here](https://github.com/Shubhamm097/Image-Classification/issues/new). Please include the relevant reasons for the feature or approach.
+1. Do read the research papers included for futher assistance in imaging diagnosis.
+2. If you'd like to request a new feature/approach, feel free to do so by opening an issue [here](https://github.com/Shubhamm097/Image-Classification/issues/new). Please include the relevant reasons for the feature or approach.
 
 ## Technology Stack
 1. PyTorch
